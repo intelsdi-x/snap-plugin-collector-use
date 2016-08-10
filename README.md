@@ -1,5 +1,5 @@
 [![Build Status](https://api.travis-ci.org/intelsdi-x/snap-plugin-collector-use.svg)](https://travis-ci.org/intelsdi-x/snap-plugin-collector-use )
-[![Go Report Card](http://goreportcard.com/badge/intelsdi-x/snap-plugin-collector-use)](http://goreportcard.com/report/intelsdi-x/snap-plugin-collector-use)
+[![Go Report Card](https://goreportcard.com/badge/intelsdi-x/snap-plugin-collector-use)](https://goreportcard.com/report/intelsdi-x/snap-plugin-collector-use)
 # snap collector plugin - use
 
 1. [Getting Started](#getting-started)
