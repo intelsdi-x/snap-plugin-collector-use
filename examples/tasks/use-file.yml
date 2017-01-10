@@ -1,0 +1,22 @@
+--- 
+max-failures: 10
+schedule: 
+  interval: 1s
+  type: simple
+version: 1
+workflow: 
+  collect: 
+    metrics: 
+      /intel/use/compute/saturation: {}
+      /intel/use/compute/utilization: {}
+      /intel/use/memory/saturation: {}
+      /intel/use/memory/utilization: {}
+      /intel/use/network/eth0/saturation: {}
+      /intel/use/network/eth0/utilization: {}
+      /intel/use/storage/sda/saturation: {}
+      /intel/use/storage/sda/utilization: {}
+    publish: 
+      - 
+        config: 
+          file: /tmp/use_metrics
+        plugin_name: file
